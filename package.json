@@ -55,6 +55,9 @@
     "lit-element": "^2.0.1",
     "@patternfly/pfe-card": "1.0.0-prerelease.56",
     "@patternfly/pfe-cta": "1.0.0-prerelease.56",
+    "@patternfly/pfe-tabs": "1.0.0-prerelease.56",
+    "@patternfly/pfe-content-set": "1.0.0-prerelease.56",
+    "@patternfly/pfe-navigation": "1.0.0-prerelease.56",
     "@webcomponents/custom-elements": "^1.2.1",
     "@webcomponents/webcomponentsjs": "^2.2.10"
   }
