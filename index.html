@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Put your description here.">
+  <link rel="stylesheet" href="assets/styles.css">
+  <base href="/">
+
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #ededed;
+    }
+  </style>
+  <title>pfe-playground</title>
+</head>
+
+<body>
+  <pfe-playground>
+    <pfe-card>
+      <pfe-card color="accent" pfe-border>
+        <h2 slot="pfe-card--header">Lightest card</h2>
+        <p>This is the lightest pfe-card and <a href="#">a link</a>, and <a href=".">a visited link</a> with
+          <code>pfe-border</code>.</p>
+        <div class="button-series" slot="pfe-card--footer">
+          <pfe-cta slot="pfe-card--footer" priority="secondary">
+            <a href="#">Try</a>
+          </pfe-cta>
+          <pfe-cta priority="primary">
+            <a href="#">Buy</a>
+          </pfe-cta>
+        </div>
+      </pfe-card>
+
+      <pfe-card color="lightest" pfe-border>
+        <h2 slot="pfe-card--header">Lightest card</h2>
+        <p>This is the lightest pfe-card and <a href="#">a link</a>, and <a href=".">a visited link</a> with
+          <code>pfe-border</code>.</p>
+        <div class="button-series" slot="pfe-card--footer">
+          <pfe-cta slot="pfe-card--footer" priority="secondary">
+            <a href="#">Try</a>
+          </pfe-cta>
+          <pfe-cta priority="primary">
+            <a href="#">Buy</a>
+          </pfe-cta>
+        </div>
+      </pfe-card>
+    </pfe-card>
+  </pfe-playground>
+  <script type="module" src="./src/pfe-playground.js"></script>
+</body>
+
+</html>
